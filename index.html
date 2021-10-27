@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/css/reset.css" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&family=Roboto:wght@300&display=swap"
+        rel="stylesheet">
+    <title>Driven Eats</title>
+</head>
+
+<body>
+    <header class="top-bar">
+        <div class="top-text">
+            <h1 class="logo righteous">DrivenEats</h1>
+            <p class="subtitle roboto">Sua comida em 6 minutos</p>
+        </div>
+    </header>
+
+    <div class="content">
+        <div class="text-box">
+            <p class="chat righteous">Primeiro, seu prato</p>
+        </div>
+
+        <section class="scroll">
+            <div class="food-box temaki" onclick="selectedfood1()">
+                <img class="food-img" src="assets/img/temaki.jpg" />
+                <h1 class="food-name roboto"> Temaki</h1>
+                <p class="description roboto">Salmão com Shitake e Cebolinha</p>
+                <p class="price roboto">R$ 7,99</p>
+            </div>
+
+            <div class="food-box macarrao" onclick="selectedfood2()">
+                <img class="food-img" src="assets/img/macarrao.jpg" />
+                <h1 class="food-name roboto"> Macarrão</h1>
+                <p class="description roboto">Molho bechamel, brócolis e bacon</p>
+                <p class="price roboto">R$20,00</p>
+            </div>
+            <div class="food-box feijoada" onclick="selectedfood3()">
+                <img class="food-img" src="assets/img/feijoada.jpg" />
+                <p class="food-name roboto"> Feijoada Completa</p>
+                <p class="description roboto">Acompanha arroz e couve</p>
+                <p class="price roboto">R$20,00</p>
+            </div>
+            <div class="food-box frango" onclick="selectedfood4()">
+                <img class="food-img" src="assets/img/frango.jpg" />
+                <p class="food-name roboto">Iscas de Frango</p>
+                <p class="description roboto">Empanado e Crocante</p>
+                <p class="price roboto">R$7,00</p>
+            </div>
+        </section>
+        <div class="text-box righteous">
+            <p class="chat">Agora, sua bebida</p>
+        </div>
+        <section class="scroll">
+            <div class="food-box refri" onclick="selectedfood5()">
+                <img class="food-img" src="assets/img/refrigerante.jpg" />
+                <p class="food-name roboto"> Refrigerante</p>
+                <p class="description roboto">Coca-Cola original e zero, Guaraná original e zero</p>
+                <p class="price roboto">R$4,00</p>
+            </div>
+            <div class="food-box cerveja" onclick="selectedfood6()">
+                <img class="food-img" src="assets/img/cerveja.jpg" />
+                <p class="food-name roboto">Cervejas</p>
+                <p class="description roboto">Heineken, Skol, Brahma, Eisenbahn, Budweiser, Amstel</p>
+                <p class="price roboto">R$3,00</p>
+            </div>
+            <div class="food-box agua" onclick="selectedfood7()">
+                <img class="food-img" src="assets/img/agua.jpg" />
+                <p class="food-name roboto">Água</p>
+                <p class="description roboto">Mineral 600ml</p>
+                <p class="price roboto">R$2,00</p>
+            </div>
+            <div class="food-box suco" onclick="selectedfood8()">
+                <img class="food-img" src="assets/img/suco.jpg" />
+                <p class="food-name roboto">Sucos</p>
+                <figcaption class="description roboto">Kiwi, Maracujá e Goiaba</figcaption>
+                <p class="price roboto">R$4,50</p>
+            </div>
+
+        </section>
+
+        <div class="text-box righteous">
+            <p class="chat">Por fim, sua sobremesa</p>
+        </div>
+        <section class="scroll">
+            <div class="food-box petit" onclick="selectedfood9()">
+                <img class="food-img" src="assets/img/petit.jpg" />
+                <p class="food-name roboto"> Petit Gateau</p>
+                <p class="description roboto">Bolo de chocolate e sorvete de creme</p>
+                <p class="price roboto">R$9,00</p>
+            </div>
+            <div class="food-box gelatina" onclick="selectedfood10()">
+                <img class="food-img" src="assets/img/gelatina.jpg" />
+                <p class="food-name roboto"> Gelatina</p>
+                <p class="description roboto">Sabores Variados</p>
+                <p class="price roboto">R$4,50</p>
+            </div>
+            <div class="food-box mousse" onclick="selectedfood11()">
+                <img class="food-img" src="assets/img/mousse.jpg" />
+                <p class="food-name roboto"> Mousse de Maracujá</p>
+                <p class="description roboto">Natural e com sementes</p>
+                <p class="price roboto">R$6,50</p>
+            </div>
+            <div class="food-box trufa" onclick="selectedfood12()">
+                <img class="food-img" src="assets/img/trufa.jpg" />
+                <p class="food-name roboto">Trufas de Chocolate</p>
+                <p class="description roboto">Morango, brigadeiro e doce de leite</p>
+                <p class="price roboto">R$2,00</p>
+            </div>
+
+        </section>
+    </div>
+
+    <footer class="bot-bar">
+        <div class="warning1 roboto">
+            <p>Selecione os 3 itens para fechar o pedido</p>
+        </div>
+    </footer>
+    <script src="javascript.js"></script>
+</body>
+
+</html>
